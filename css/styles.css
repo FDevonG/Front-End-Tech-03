@@ -6,7 +6,9 @@ BASE STYLES
     box-sizing: border-box;
 }
 
-body {
+body,
+select,
+input {
     font-family: 'Merriweather', serif;
     font-weight: 400;
     color:#617383;
@@ -23,6 +25,11 @@ legend{
     color:black;
 }
 
+button,
+h1 {
+    color:white;
+}
+
 fieldset{
     padding:0;
 }
@@ -33,11 +40,6 @@ select,
 textarea,
 button{
     border:none;
-}
-
-button,
-h1 {
-    color:white;
 }
 
 button{
@@ -60,6 +62,10 @@ header,
 footer{
     text-align: center;
     padding: 10px 0;
+}
+
+::placeholder{
+    text-align: right;
 }
 
 /***********************
