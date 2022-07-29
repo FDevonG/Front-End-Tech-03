@@ -96,6 +96,15 @@ fieldset{
     margin:10px 0;
 }
 
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-column textarea::placeholder{
+    text-align: left;
+}
+
 label{
     margin-bottom:10px;
 }
@@ -153,6 +162,7 @@ select {
 
 textarea {
     min-height: 100px;
+    padding:10px;
 }
 
 input[type="checkbox"],
